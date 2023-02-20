@@ -31,6 +31,18 @@ git commit
 ```
 Enregistre le changement, ouvre un editeur de texte pour mettre un commentaire sur le commit actuel (par défaut: `vim`). `-m "MESSAGE"` pour spécifier le message directement.
 
+## git-push
+```shell
+git push
+```
+Envoie les changements locaux sur l'`origin`
+
+## git-pull
+```shell
+git pull
+```
+Récupère les changements de l'`origin` vers la version locale
+
 ## git-config
 ```bash
 git config --global user.name "Guillaume P"
