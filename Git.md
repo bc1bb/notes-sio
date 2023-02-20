@@ -16,3 +16,24 @@ Permet d'initialiser un repo dans le dossier actuel
 git status
 ```
 Donne l'état du repo git actuel
+
+### git-add
+```bash
+git add fichier.ext
+git add -A
+```
+Ajoute des fichiers au prochain 'commit',
+`-A` ajoute tous les changements
+
+### git-commit
+```bash
+git commit
+```
+Enregistre le changement, ouvre un editeur de texte pour mettre un commentaire sur le commit actuel (par défaut: `vim`). `-m "MESSAGE"` pour spécifier le message directement.
+
+## git-config
+```bash
+git config --global user.name "Guillaume P"
+git config --global user.email "yaume@ntymail.com"
+```
+permet de configurer git, `--global` applique le reglage sur tous les repos
