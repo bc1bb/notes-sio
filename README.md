@@ -3,4 +3,5 @@
 Optimisé pour Obsidian.
 - [git](Git.md),
 - [bash](Bash.md),
-- [Markdown](Markdown.md).
+- [Markdown](Markdown.md),
+- [Web](Web/Web.md).

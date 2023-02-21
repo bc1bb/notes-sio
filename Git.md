@@ -44,7 +44,7 @@ git pull
 Récupère les changements de l'`origin` vers la version locale
 
 ## git-config
-```bash
+```shell
 git config --global user.name "Guillaume P"
 git config --global user.email "yaume@ntymail.com"
 ```
